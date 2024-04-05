@@ -1,0 +1,21 @@
+@import "./overrideBootstrap";
+
+header {
+  .navbar {
+    .navbar-brand {
+      img {
+        width: 100%;
+        height: 50px;
+      }
+    }
+  }
+}
+
+main {
+  width: 50%;
+  margin-inline: auto;
+  img {
+    max-width: 100%;
+    height: 150px;
+  }
+}
